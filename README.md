@@ -1,5 +1,16 @@
 # Astro Starter Kit: Basics
 
+> [!WARNING]
+> This page is not official. The official page is [**premiosesland.com**](https://premiosesland.com/).
+
+## 🛠️ Stack
+
+- [**Astro**](https://astro.build/) - The web framework for content-driven websites.
+- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with syntax for types.
+- [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
+- [**tailwindcss-animated**](https://github.com/new-data-services/tailwindcss-animated) - Extended animation utilities for Tailwind CSS.
+- [**fontsource**](https://fontsource.org/) - Self-host Open Source fonts in neatly bundled NPM packages.
+
 ```sh
 npm create astro@latest -- --template basics
 ```
@@ -52,3 +63,10 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## ✅ Por hacer...
+
+- [ ] Afinar el Header y añadirle una animación con el scroll
+- [ ] Afinar el responsive
+- [ ] Las páginas extra
+- [ ] Añadir el efecto hover sobre los enlaces de Nav Bar
