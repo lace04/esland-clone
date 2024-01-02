@@ -1,17 +1,17 @@
-import catalan from './ca.json';
-import spanish from './es.json';
+import catalan from './ca.json'
+import spanish from './es.json'
 
 const LANGUAGES = {
   CATALAN: 'ca',
-  SPANISH: 'es',
-};
+  SPANISH: 'es'
+}
 
 export const getI18N = ({
-  currentLocale = 'es',
+  currentLocale = 'es'
 }: {
-  currentLocale: string | undefined;
+  currentLocale: string | undefined
 }) => {
-  if (currentLocale === LANGUAGES.CATALAN) return catalan;
-  if (currentLocale === LANGUAGES.SPANISH) return spanish;
-  return spanish;
-};
+  if (currentLocale === LANGUAGES.CATALAN) return catalan
+  if (currentLocale === LANGUAGES.SPANISH) return spanish
+  return spanish
+}

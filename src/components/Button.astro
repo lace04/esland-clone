@@ -1,11 +1,11 @@
 ---
 interface Props {
-  class?: string;
-  target?: string;
-  url: string;
+  class?: string
+  target?: string
+  url: string
 }
 
-const { url, target, class: className } = Astro.props;
+const { url, target, class: className } = Astro.props
 ---
 
 <a
@@ -26,7 +26,7 @@ const { url, target, class: className } = Astro.props;
     'border-white',
     'rounded-full',
     'uppercase',
-    className,
+    className
   ]}
 >
   <slot />
