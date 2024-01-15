@@ -23,7 +23,7 @@
   "VIDEO_BUTTON": "Reviu la 2ª Edició",
   "PREFOOTER_VIDEO_TITLE": "Guia de la 3a Edició dels premis ESLAND",
   "FOOTER": {
-    "DISCLAIMER": "© ESLAND 2021 - 2024. - No oficial web",
+    "DISCLAIMER": "© ESLAND 2021 - 2024. - Aquesta no és la pàgina web oficial",
     "LEGAL": {
       "TITLE": "Legal",
       "NOTICE": "Avís Legal",
@@ -155,5 +155,9 @@
         }
       ]
     }
+  },
+  "INFO": {
+    "TITLE_HERO_1": "Els premis",
+    "TITLE_HERO_2": "ESLAND"
   }
 }
