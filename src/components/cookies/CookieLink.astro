@@ -1,41 +1,21 @@
 ---
-interface Props {
-  class?: string
-  target?: string
-  url: string
-}
-
-const { url, target, class: className } = Astro.props
+const { url, text } = Astro.props;
 ---
 
 <a
   href={url}
-  target=`${target ?? '_blank'}`
+  target="_blank"
   rel="noopener noreferrer"
-  class:list={[
-    className,
-    "w-fit",
-    "lg:text-2xl",
-    "font-medium",
-    "text-white",
-    "no-underline",
-    "px-5",
-    "py-3",
-    "border",
-    "border-solid",
-    "border-white",
-    "rounded-full",
-    "uppercase",
-  ]}
+  class="animate-fade-up font-semibold"
 >
-  <slot />
+  {text || url}
 </a>
 
 <style>
   a {
     transition:
-      text-shadow 0.5s ease-out,
-      box-shadow 0.3s ease-out;
+      text-shadow 0.1s ease-out,
+      box-shadow 0.1s ease-out;
   }
 
   a:hover {
